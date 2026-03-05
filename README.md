@@ -76,8 +76,7 @@ feelings.
 
 ## Backend
 
--   Java
--   Spring Boot
+-python
 
 ## Deployment
 
@@ -100,9 +99,9 @@ feelings.
     │   └── script.js
     │
     ├── backend
-    │   ├── controller
-    │   ├── service
-    │   └── application files
+    │   ├── python
+    │    
+    │ 
     │
     ├── assets
     │
