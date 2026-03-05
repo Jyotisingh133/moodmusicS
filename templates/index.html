@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>MoodSense AI</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>MoodSense AI 🎧</h1>
+
+<p>Detect your emotion and enjoy music</p>
+
+<video id="video" autoplay></video>
+
+<br>
+
+<button onclick="detectMood()">Detect Mood</button>
+
+<h2 id="emotion"></h2>
+
+<iframe id="player" width="400" height="220"></iframe>
+
+</div>
+
+<script src="/static/script.js"></script>
+<script src="/static/camera.js"></script>
+
+</body>
+
+</html>
